@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container" id="signup">
+    <div class="container" id="signUp" style="display: none;">
         <h1 class="form-title">Register</h1>
         <form method="post" action="">
             <div class="input-group">
@@ -31,7 +31,7 @@
                 <input type="password" id="password" placeholder="Password" readonly>
                 <label for="password">Password</label>
             </div>
-            <input type="submit" class="btn" value="Sing Up" name="signup">
+            <input type="submit" class="btn" value="Sing In" name="signin">
             <p class="or">
                 ------------or-----------
             </p>
@@ -41,14 +41,14 @@
             </div>
             <div class="link">
                 <p>Alredy Have Account ?</p>
-                <button id="singInButton">Sing In</button>
+                <button id="signInButton">Sing In</button>
             </div>
             
         </form>
 
     </div>
 
-    <div class="container" id="singIn">
+    <div class="container" id="signIn">
         <h1 class="form-title">Sing In</h1>
         <form method="post" action="">
             
@@ -65,7 +65,7 @@
             <p class="recover">
                 <a href="#"> Recover Password</a>
             </p>
-            <input type="submit" class="btn" value="Sing In" name="signIn">
+            <input type="submit" class="btn" value="Sing Up" name="signup">
             <p class="or">
                 -------------or------------
             </p>
@@ -75,7 +75,7 @@
             </div>
             <div class="link">
                 <p>Don't have account yet?</p> 
-                <button id="singUpButton">Sing Up</button>
+                <button id="signUpButton">Sing Up</button>
             </div>
             
         </form>
